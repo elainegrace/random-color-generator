@@ -17,10 +17,10 @@ const values = [
   "F",
 ];
 
-const btn = document.getElementById("btn");
+const btn = document.querySelector("#btn");
 const color = document.querySelector(".color");
 
-btn.addEventListener("click", function () {
+btn.addEventListener("click", () => {
   let hex = "#";
   for (let i = 1; i <= 6; i++) hex += values[getRandomNumber()];
 
