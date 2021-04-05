@@ -26,6 +26,7 @@ btn.addEventListener("click", () => {
 
   document.body.style.backgroundColor = hex;
   color.textContent = hex;
+  btn.style.color = hex;
 });
 
 function getRandomNumber() {
